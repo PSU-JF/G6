@@ -1,0 +1,157 @@
+.main-content {
+  display: flex;
+  color: var(--white);
+  font-weight: var(--medium);
+}
+.main-content .left {
+  padding-left: 20px;
+}
+.main-content .left .content h2 {
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: var(--medium);
+  margin: 0;
+}
+.main-content .left .content Iframe {
+  border: 0;
+  border-radius: 10px;
+}
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before {
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 200px;
+  background: var(--darkGray);
+}
+.box .content:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: var(--gold);
+  top: -10px;
+}
+.left .content p {
+  text-align: justify;
+}
+.left .content .social {
+  margin: 20px 0 0 0;
+}
+.left .content .social a {
+  padding: 0 2px;
+  padding-inline: 5px;
+}
+.left .content .social a .iconsSocial {
+  height: 40px;
+  width: 40px;
+  background: var(--darkGray);
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: var(--white);
+  padding: 10px;
+}
+.left .content .social a .iconsSocial:hover {
+  background: var(--gold);
+}
+.center .cont {
+  padding-left: 40px;
+}
+.center .content {
+  padding-left: 40px;
+}
+.center .content .place {
+  padding-block: 10px;
+}
+.center .content .mobile {
+  padding-block: 10px;
+}
+.center .content .email {
+  padding-block: 10px;
+}
+.center .content .text {
+  font-size: 1.0621rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.right form .text {
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: var(--lightGray);
+}
+.right form .msg {
+  margin-top: 10px;
+}
+.right form Input,
+.right form textarea {
+  width: 100%;
+  font-size: 1.0625rem;
+  background: var(--lightBlack);
+  padding-left: 10px;
+  border: 1px solid var(--lightBlack);
+  color: var(--white);
+}
+.right form input:focus,
+.right form textarea:focus {
+  outline-color: var(--blue);
+}
+.right form Input {
+  width: 470px;
+}
+.right form .btn {
+  margin-top: 10px;
+}
+.right form .btn Button {
+  height: 40px;
+  width: 430px;
+  border: none;
+  outline: none;
+  background: var(--gold);
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+  font-weight: bold;
+  color: var(--black);
+}
+.right form .btn Button:hover {
+  background: var(--black);
+  color: var(--white);
+  font-weight: bold;
+}
+.bottom {
+  display: flex;
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: var(--lightBlack);
+  display: flex;
+  justify-content: center;
+}
+.bottom span {
+  color: var(--gray);
+  display: flex;
+  align-items: flex-end;
+}
+.credit {
+  font-family: sans-serif;
+}
+.credit a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+}

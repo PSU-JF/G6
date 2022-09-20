@@ -1,0 +1,27 @@
+:root {
+  /*Colors*/
+  --yellow: #ffff00;
+  --black: #000000;
+  --white: #fff;
+  --darkGray: #1a1a1a;
+  --gold: #ffd700;
+  --lightGray: #999999;
+  --lightBlack: #151515;
+  --blue: #3498db;
+  --gray: #656565;
+  /*Font Family*/
+  --fontPrimary: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+    sans-serif;
+  --fontSecondary: Brush Script MT;
+  /*Font Weight*/
+  --medium: bold;
+}
+
+body {
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 1s all;
+  font-family: var(--fontPrimary);
+  padding: 0;
+  box-sizing: border-box;
+}

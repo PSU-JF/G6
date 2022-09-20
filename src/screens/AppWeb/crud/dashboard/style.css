@@ -1,0 +1,116 @@
+.headerProveedores{
+    width: 100%;
+    position: absolute;
+    height: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.slide {
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    transition: 0.5s ease;
+    transform: translateX(-210px);
+}
+.titleSidebar {
+    font-weight: 800;
+    padding-top: 15px ;
+    pointer-events: none;
+}
+.contentSidebar {
+    padding: 0;
+}
+.contentSidebar li {
+    list-style: none;
+}
+.contentSidebar li a {
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+    color: var(--white);
+    display: flex;
+}
+.contentSidebar li:hover a{
+    color: #fff;
+    background-color: #181414;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+#btn {
+    display: none;
+    visibility: hidden;
+    -webkit-appearance: none;
+}
+.toggle {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 40px;
+    left: 7px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: var(--black);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.toggle .common {
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: var(--white);
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.toggle .top_line {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.toggle .middle_line {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.toggle .bottom_line {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input:checked ~ .toggle .top_line {
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+input:checked ~ .toggle .bottom_line {
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(-45deg);
+}
+input:checked ~ .toggle .middle_line {
+    opacity: 0;
+    transform: translateX(20px);
+}
+input:checked ~ .slide {
+    transform: translateX(0);
+}
+.subtitleProveedores {
+    padding: 0;
+    margin: 0;
+}
+.gestionCrias {
+    padding: 10px;
+}
+.linesSubtitles {
+    margin: 0 5px;
+    padding: 0;
+}
+.manejoProveedores {
+    padding: 10px;
+}
+.manejoCompras{
+    padding: 10px;
+}

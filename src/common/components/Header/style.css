@@ -1,0 +1,51 @@
+/*LOGO*/
+.left {
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  align-items: left;
+  margin: 0;
+}
+/*FIN DEL LOGO*/
+/*NOMBRE DE LA PAGINA Y TITULO BLACK AND YELLOW*/
+.titulo {
+  float: right;
+  padding: 50px;
+  font-size: 60px;
+  font-family: var(--fontSecondary);
+  color: var(--white);
+  display: block;
+  position: relative;
+  left: 150px;
+  top: 40px;
+}
+/*FIN DEL NOMBRE DE LA PAGINA Y TITULO BLACK AND YELLOW*/
+/*TITULO DE CONTACTANOS*/
+.contactanos {
+  float: right;
+  font-size: 30px;
+  font-family: var(--fontSecondary);
+  color: var(--white);
+  display: block;
+  position: relative;
+  left: 250px;
+  top: 5px;
+}
+/*FIN DEL TITULO DE CONTACTANOS*/
+/*SIMBOLO DE CONTACTANOS*/
+.social {
+  text-align: left;
+  list-style: none;
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+/*FIN DE LOS SIMBOLOS DE CONTACTANOS*/
+/*IMAGEN DEL PERRO DE PORTADA*/
+.perro {
+  background: url(../../../../public/resources/img/header/portada.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 275px;
+}
+/*FIN IMAGEN DEL PERRO DE PORTADA*/

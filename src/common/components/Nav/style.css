@@ -1,0 +1,16 @@
+.navigation ul li {
+  padding-inline: 5px;
+  font-weight: 500;
+}
+.navigation ul li a {
+  display: block;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+}
+.navigation ul li a:hover {
+  background: #4a4a4a;
+}
+.subtitle {
+  padding-inline: 5px;
+  font-weight: var(--medium);
+}

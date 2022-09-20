@@ -1,0 +1,130 @@
+.loginPage {
+  margin: 0;
+  padding: 0;
+  background: url(../../../../public/resources/img/login/background.png)
+    no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.login {
+  width: 320px;
+  height: 420px;
+  background: black;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+/*imagen*/
+.login .imagen {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -70px;
+  left: 87px;
+}
+/*titulo*/
+.login h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+/*usuario/contraseña/cargo*/
+.login label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login select {
+  margin-bottom: 20px;
+}
+
+.login input[type='email'],
+.login input[type='password'] {
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+}
+
+.login select {
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  color: rgb(131, 109, 109);
+  outline: none;
+  height: 25px;
+  font-size: 13px;
+}
+.containerButton{
+  display: flex;
+  flex-direction: column;
+}
+
+.login .buttonLogin {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: rgba(224, 202, 3, 0.877);
+  color: black;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login .buttonLogin:hover {
+  background-color: yellow;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.n_tiene {
+  position: relative;
+  left: 50px;
+}
+
+.login a:hover {
+  color: white;
+}
+#regresar {
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 100px;
+  background: rgba(173, 173, 173, 0.877);
+  color: black;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+#regresar:hover {
+  background: rgb(182, 182, 182);
+}
